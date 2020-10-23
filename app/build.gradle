@@ -1,0 +1,109 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao' // apply plugin
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.example.trxy"
+        minSdkVersion 20
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("boolean", "ISLOG", "true")
+
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            //打包时设置日志不可见
+            buildConfigField("boolean", "ISLOG", "false")
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+
+greendao {
+    schemaVersion 1  //版本
+    daoPackage 'com.example.trxy.greendao' // 一般为app包名+生成文件的文件夹名
+    targetGenDir 'src/main/java' //生成文件路径
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+
+    //菜单样式
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:2.0.4'
+    implementation "com.android.support:design:29.0.0"
+
+    //ButterKnife注解插件
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+
+    //头像
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //ios自定义对话框
+    implementation 'com.github.gittjy:LoadingDialog:1.0.2'
+
+    //第三方提示框
+    implementation 'com.necer.ndialog2:ndialog:1.1.5'
+
+    //Android GreenDao
+    implementation 'org.greenrobot:greendao:3.3.0' // add library
+
+    //图片加载器
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+
+    //创建一个临时表，将旧表的数据迁移到新表中
+    implementation 'io.github.yuweiguocn:GreenDaoUpgradeHelper:2.2.1'
+
+    //图片与视频，音频选择
+    implementation 'com.github.XiaoBaiErHao:PictureAudioVideoSelector:v1.0.1'
+
+    //最新轮播图
+    implementation 'com.youth.banner:banner:2.0.8'
+
+    //下拉上拉刷新
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.2'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.2'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'
+
+    //谷歌的json解析
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    //RxEasyHttp网络请求
+    implementation 'com.zhouyou:rxeasyhttp:2.1.5'
+
+    //阿里的json解析
+    implementation 'com.alibaba:fastjson:1.2.60'
+
+    //基于腾讯x5开源库
+    implementation 'cn.yc:WebViewLib:1.2.4'
+
+    //时间选择器
+    implementation 'com.contrarywind:Android-PickerView:4.1.9'
+
+    //特殊布局显示
+    implementation 'com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar'
+}

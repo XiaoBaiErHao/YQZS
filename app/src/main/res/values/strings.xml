@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">疫情助手</string>
+    <string name="notifyMsg" translatable="false">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting" translatable="false">设置</string>
+    <string name="cancel" translatable="false">取消</string>
+    <string name="notifyTitle" translatable="false">提示</string>
+
+    <string name="home_page">首页</string>
+    <string name="personal_center">个人中心</string>
+    <string name="lifeserver">服务</string>
+
+    <string name="github_qq_browser_kernel">已启用QQ浏览器X5内核</string>
+    <string name="to_obtain_the">获取中</string>
+</resources>

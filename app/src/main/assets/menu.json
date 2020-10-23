@@ -1,0 +1,194 @@
+{
+  "code": "200",
+  "message": "获取成功",
+  "allList": [{
+    "id": 1001,
+    "moduleName": "疫情查看",
+    "menuList": [
+      {
+        "id": 1001,
+        "name": "国内疫情"
+      },
+      {
+        "id": 1002,
+        "name": "全球疫情"
+      },
+      {
+        "id": 1003,
+        "name": "国内病例"
+      },
+      {
+        "id": 1013,
+        "name": "确诊名人",
+        "url": "https://broccoli.uc.cn/apps/i1u1TAFE/routes/index?uc_param_str=dsdnfrpfbivesscpgimibtbmnijblauputogpintnwkt"
+      }
+
+    ]
+  },
+    {
+      "id": 1002,
+      "moduleName": "疫情帮助",
+      "menuList": [
+        {
+          "id": 1004,
+          "name": "同程查询"
+        },
+        {
+          "id": 1005,
+          "name": "确诊地点"
+        },
+        {
+          "id": 1006,
+          "name": "谣言鉴别"
+        },
+        {
+          "id": 1008,
+          "name": "实时动态"
+        }
+
+      ]
+    },
+    {
+      "id": 1003,
+      "moduleName": "我的客服",
+      "menuList": [
+        {
+          "id": 1007,
+          "name": "智多星"
+        }
+
+      ]
+    },
+    {
+      "id": 1010,
+      "moduleName": "防控检测",
+      "menuList": [
+        {
+          "id": 1026,
+          "name": "防控知识",
+          "url": "http://app.www.gov.cn/govdata/gov/columns/special_640.html?from=groupmessage&isappinstalled=0"
+        },{
+          "id": 1027,
+          "name": "核酸检测",
+          "url": "https://news.qq.com/zt2020/page/nucleic.htm"
+        }
+
+      ]
+    },
+    {
+      "id": 1007,
+      "moduleName": "医疗健康",
+      "menuList": [
+        {
+          "id": 1010,
+          "name": "丁香园",
+          "url": "https://dxy.com/"
+        },{
+          "id": 1022,
+          "name": "养生",
+          "url": "https://m.cndzys.com/"
+        }
+
+      ]
+    },
+    {
+      "id": 1004,
+      "moduleName": "我要缴费",
+      "menuList": [
+        {
+          "id": 1011,
+          "name": "电费",
+          "url": "http://www.95598.cn/person/as/index.shtml"
+        },
+        {
+          "id": 1012,
+          "name": "水费",
+          "url": "http://pd.zlspay.com/"
+        },
+        {
+          "id": 1017,
+          "name": "燃气费",
+          "url": "http://962777.cdgas.com/hallsitePortal/index"
+        },
+        {
+          "id": 1023,
+          "name": "充话费",
+          "url": "https://h5.m.taobao.com/app/cz/cost.html?denom=50&clientSource=ucbrowser#/cost"
+        }
+      ]
+    },
+    {
+      "id": 1005,
+      "moduleName": "我要出行",
+      "menuList": [
+        {
+          "id": 1016,
+          "name": "火车票",
+          "url": "https://h5.m.taobao.com/trip/traffic-search/search/index.html?_projVer=1.17.3#/"
+        },{
+          "id": 1024,
+          "name": "查公交",
+          "url": "https://m.8684.cn/bus_switch"
+        },{
+          "id": 1025,
+          "name": "查地铁",
+          "url": "https://m.8684.cn/dt_switch"
+        }
+
+      ]
+    },
+    {
+      "id": 1006,
+      "moduleName": "我要旅游",
+      "menuList": [
+        {
+          "id": 1015,
+          "name": "景点",
+          "url": "https://touch.dujia.qunar.com/aroundIndex.qunar?area=around&limit=0,10"
+        },{
+          "id": 1018,
+          "name": "穷游",
+          "url": "https://www.qyer.com/"
+        }
+
+      ]
+    },
+    {
+      "id": 1008,
+      "moduleName": "我要娱乐",
+      "menuList": [
+        {
+          "id": 1014,
+          "name": "乐视",
+          "url": "http://m.le.com/"
+        },{
+          "id": 1019,
+          "name": "十二星座",
+          "url": "https://www.xzw.com/astro/"
+        },{
+          "id": 1020,
+          "name": "九酷音乐",
+          "url": "http://www.9ku.com/"
+        },{
+          "id": 1021,
+          "name": "潇湘书院",
+          "url": "https://www.xxsy.net/"
+        }
+
+      ]
+    },{
+      "id": 1009,
+      "moduleName": "我要搜索",
+      "menuList": [
+        {
+          "id": 1009,
+          "name": "百度一下",
+          "url": "https://www.baidu.com/index.php?tn=monline_3_dg"
+        }
+
+      ]
+    }
+
+  ]
+
+}
